@@ -1,6 +1,6 @@
 import React from "react";
 import { Badge, Media, Alert, Card, Container } from "react-bootstrap";
-
+import courseralogo from "../Images/coursera.png";
 function Certificates() {
   return (
     <Container>
@@ -12,23 +12,38 @@ function Certificates() {
               width={64}
               height={64}
               className="align-self-start mr-3"
-              src="holder.js/64x64"
-              alt="Generic placeholder"
+              src={courseralogo}
+              alt="Coursera Logo"
             />
             <Media.Body>
-              <h5> Media Heading 2 </h5>{" "}
-              <p>
-                Cras sit amet nibh libero, in gravida nulla.Nulla vel metus
-                scelerisque ante sollicitudin commodo.Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis.Fusce
-                condimentum nunc ac nisi vulputate fringilla.Donec lacinia
-                congue felis in faucibus.{" "}
-              </p>{" "}
-              <p>
-                Donec sed odio dui.Nullam quis risus eget urna mollis ornare vel
-                eu leo.Cum sociis natoque penatibus et magnis dis parturient
-                montes, nascetur ridiculus mus.{" "}
-              </p>{" "}
+              <h3> Data Science by John Hopkin University </h3>
+              <h5> 2020</h5>
+              <Badge variant="primary"> R Programming </Badge>{" "}
+              <Badge variant="secondary"> Rstudio </Badge>{" "}
+              <Badge variant="danger"> Data Science </Badge>{" "}
+              <Badge variant="success"> Data Analysis </Badge>{" "}
+              <Badge variant="warning"> Data Manipulation </Badge>{" "}
+              <Badge variant="info"> Data Cleansing </Badge>{" "}
+            </Media.Body>{" "}
+          </Media>{" "}
+          <hr />
+          <Media>
+            <img
+              width={64}
+              height={64}
+              className="align-self-start mr-3"
+              src={courseralogo}
+              alt="Coursera Logo"
+            />
+            <Media.Body>
+              <h3> Software Product Management </h3>
+              <h5> 2021</h5>
+              <Badge variant="primary"> Product Management </Badge>{" "}
+              <Badge variant="success"> Project Management </Badge>{" "}
+              <Badge variant="secondary"> Scrum </Badge>{" "}
+              <Badge variant="danger"> Agile Software Development </Badge>{" "}
+              <Badge variant="warning"> User Stories </Badge>{" "}
+              <Badge variant="info"> Software Requirements </Badge>{" "}
             </Media.Body>{" "}
           </Media>{" "}
         </Card.Body>{" "}

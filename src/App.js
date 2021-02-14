@@ -1,5 +1,5 @@
 import "./App.css";
-import { Button, Container, Row, Col, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "./components/Head/Head";
 import Experience from "./components/Body/Experience";
@@ -13,26 +13,25 @@ function App() {
       <header className="App-header">
         <Container>
           <Head />
-        </Container>
-      </header>
+        </Container>{" "}
+      </header>{" "}
       <body className="App-body">
         <Container>
           <Experience />
-        </Container>
-        <hr></hr>
-
+        </Container>{" "}
+        <hr> </hr>{" "}
         <Container>
           <Education />
-        </Container>
-        <hr></hr>
+        </Container>{" "}
+        <hr> </hr>{" "}
         <Container>
           <Certifications />
-        </Container>
-        <hr></hr>
-      </body>
+        </Container>{" "}
+        <hr> </hr>{" "}
+      </body>{" "}
       <footer className="App-footer">
         <Foot />
-      </footer>
+      </footer>{" "}
     </div>
   );
 }
