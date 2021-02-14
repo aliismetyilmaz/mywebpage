@@ -1,0 +1,38 @@
+    .App-header {
+        background-color: white;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        font-family: 'Courier New', Courier, monospace;
+        border-color: black;
+        margin-top: 40px;
+    }
+    
+    .App-body {
+        background-color: white;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(2px + 2vmin);
+        font-family: 'Courier New', Courier, monospace;
+        border-color: black;
+        margin-top: 40px;
+    }
+    
+    .App-footer {
+        background-color: white;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(2px + 2vmin);
+        font-family: 'Courier New', Courier, monospace;
+        border-color: black;
+        margin-bottom: 20px;
+    }
