@@ -1,5 +1,5 @@
 import "./App.css";
-import Container from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "./components/Head/Head";
 import Experience from "./components/Body/Experience";
