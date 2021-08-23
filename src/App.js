@@ -11,27 +11,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Container>
+        <Container >
           <Head />
-        </Container>{" "}
-      </header>{" "}
+        </Container>
+      </header>
       <body className="App-body">
-        <Container>
+        <Container style={{ marginBottom: "40px" }}>
           <Experience />
-        </Container>{" "}
-        <hr> </hr>{" "}
-        <Container>
+        </Container>
+        <Container style={{ marginBottom: "40px" }}>
           <Education />
-        </Container>{" "}
-        <hr> </hr>{" "}
-        <Container>
+        </Container>
+        <Container style={{ marginBottom: "40px" }}>
           <Certifications />
-        </Container>{" "}
-        <hr> </hr>{" "}
-      </body>{" "}
+        </Container>
+      </body>
       <footer className="App-footer">
         <Foot />
-      </footer>{" "}
+      </footer>
     </div>
   );
 }
