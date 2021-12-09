@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Breadcrumb, Col, Image, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import "./Head.css";
 
 function Head() {
@@ -7,8 +7,7 @@ function Head() {
     <Card className="text-center">
       <Card.Header>Ali İsmet Yılmaz</Card.Header>
       <Card.Body>
-        <Card.Title>Software Engineer</Card.Title>
-        <Card.Title>Software Product Manager</Card.Title>
+        <Card.Title>Product Manager</Card.Title>
       </Card.Body>
       <Card.Footer>
         <Row className="justify-content-md-center">
@@ -16,6 +15,7 @@ function Head() {
             <Card.Link
               className="Head-bread"
               href="https://github.com/aliismetyilmaz"
+              target="_blank"
             >
               GitHub
             </Card.Link>
@@ -24,6 +24,7 @@ function Head() {
             <Card.Link
               className="Head-bread"
               href="https://www.linkedin.com/in/ali-ismet-yilmaz/"
+              target="_blank"
             >
               Linkedin
             </Card.Link>

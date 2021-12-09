@@ -18,6 +18,38 @@ function Experience() {
               alt="Generic placeholder"
             />
             <Media.Body>
+              <h4> Associate Product Manager </h4>
+              <h5> JotForm </h5>
+              <h6> 10/2021-present</h6>
+              <hr />
+              <h5>
+                JotForm is a San Francisco–based company for building online forms.
+                Its users can create forms using drag and drop form objects and/or complete templates
+                that require no special technical knowledge.
+              </h5>
+              <hr />
+              <p>
+                ● Collaborating with cross-functional teams with design, engineering, marketing, and sales to define and solve users’ problems on Jotform’s core products.
+              </p>
+              <hr />
+              <Badge variant="primary"> Data Analysis </Badge>{" "}
+              <Badge variant="danger"> Product Development </Badge>{" "}
+              <Badge variant="success"> User Research </Badge>{" "}
+              <Badge variant="danger"> Market Research </Badge>{" "}
+              <Badge variant="secondary"> Agile </Badge>{" "}
+              <Badge variant="success"> Design Thinking </Badge>{" "}
+            </Media.Body>{" "}
+          </Media>
+          <hr />
+          <Media>
+            <img
+              width={64}
+              height={64}
+              className="align-self-start mr-3"
+              src={JotFormlogo}
+              alt="Generic placeholder"
+            />
+            <Media.Body>
               <h4> Product Manager Intern </h4>
               <h5> JotForm </h5>
               <h6> 07/2021-08/2021</h6>

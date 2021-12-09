@@ -4,7 +4,7 @@ import { Row, Col, Card, Container } from "react-bootstrap";
 function Foot() {
   return (
     <Container>
-      <Row className="justify-content-md-center"> Ali İsmet Yilmaz </Row>
+      <Row className="justify-content-md-center"> Ali İsmet Yilmaz</Row>
     </Container>
   );
 }
