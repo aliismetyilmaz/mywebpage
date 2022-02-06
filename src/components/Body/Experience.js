@@ -3,6 +3,7 @@ import { Badge, Media, Card, Container } from "react-bootstrap";
 import DFlogo from "../Images/df.jpg";
 import Joyinlogo from "../Images/joyin.png";
 import JotFormlogo from "../Images/JotForm.png";
+import La3eblogo from "../Images/La3eb.png";
 function Experience() {
   return (
     <Container>
@@ -14,13 +15,39 @@ function Experience() {
               width={64}
               height={64}
               className="align-self-start mr-3"
+              src={La3eblogo}
+              alt="Generic placeholder"
+            />
+            <Media.Body>
+              <h4> Junior Product Manager </h4>
+              <h5> La3eb </h5>
+              <h6> 02/2022-present</h6>
+              <hr />
+              <h5>
+                La3eb is a social community and online marketplace that brings together everything a gamer needs in one app.
+              </h5>
+              <hr />
+              <Badge variant="primary"> Data Analysis </Badge>{" "}
+              <Badge variant="danger"> Product Development </Badge>{" "}
+              <Badge variant="success"> User Research </Badge>{" "}
+              <Badge variant="danger"> Market Research </Badge>{" "}
+              <Badge variant="secondary"> Agile and Sprint Planning </Badge>{" "}
+              <Badge variant="success"> Design Thinking </Badge>{" "}
+            </Media.Body>{" "}
+          </Media>
+          <hr />
+          <Media>
+            <img
+              width={64}
+              height={64}
+              className="align-self-start mr-3"
               src={JotFormlogo}
               alt="Generic placeholder"
             />
             <Media.Body>
               <h4> Associate Product Manager </h4>
               <h5> JotForm </h5>
-              <h6> 10/2021-present</h6>
+              <h6> 10/2021-02/2022</h6>
               <hr />
               <h5>
                 JotForm is a San Francisco–based company for building online forms.
@@ -29,7 +56,10 @@ function Experience() {
               </h5>
               <hr />
               <p>
-                ● Collaborating with cross-functional teams with design, engineering, marketing, and sales to define and solve users’ problems on Jotform’s core products.
+                ● Worked on analyzing and reporting different widgets and feature suggestions.
+              </p>
+              <p>
+                ● Worked on designing the 2FA feature.
               </p>
               <hr />
               <Badge variant="primary"> Data Analysis </Badge>{" "}
