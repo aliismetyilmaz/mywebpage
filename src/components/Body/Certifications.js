@@ -16,14 +16,14 @@ function Certificates() {
               alt="Coursera Logo"
             />
             <Media.Body>
-              <h3> Data Science by John Hopkin University </h3>
-              <h5> 2020</h5>
-              <Badge variant="primary"> R Programming </Badge>{" "}
-              <Badge variant="secondary"> Rstudio </Badge>{" "}
-              <Badge variant="danger"> Data Science </Badge>{" "}
-              <Badge variant="success"> Data Analysis </Badge>{" "}
-              <Badge variant="warning"> Data Manipulation </Badge>{" "}
-              <Badge variant="info"> Data Cleansing </Badge>{" "}
+              <h3> Software Product Management </h3>
+              <h5> 2021</h5>
+              <Badge variant="primary"> Product Management </Badge>{" "}
+              <Badge variant="success"> Project Management </Badge>{" "}
+              <Badge variant="secondary"> Scrum </Badge>{" "}
+              <Badge variant="danger"> Agile Software Development </Badge>{" "}
+              <Badge variant="warning"> User Stories </Badge>{" "}
+              <Badge variant="info"> Software Requirements </Badge>{" "}
             </Media.Body>{" "}
           </Media>{" "}
           <hr />
@@ -36,14 +36,14 @@ function Certificates() {
               alt="Coursera Logo"
             />
             <Media.Body>
-              <h3> Software Product Management </h3>
-              <h5> 2021</h5>
-              <Badge variant="primary"> Product Management </Badge>{" "}
-              <Badge variant="success"> Project Management </Badge>{" "}
-              <Badge variant="secondary"> Scrum </Badge>{" "}
-              <Badge variant="danger"> Agile Software Development </Badge>{" "}
-              <Badge variant="warning"> User Stories </Badge>{" "}
-              <Badge variant="info"> Software Requirements </Badge>{" "}
+              <h3> Data Science by John Hopkin University </h3>
+              <h5> 2020</h5>
+              <Badge variant="primary"> R Programming </Badge>{" "}
+              <Badge variant="secondary"> Rstudio </Badge>{" "}
+              <Badge variant="danger"> Data Science </Badge>{" "}
+              <Badge variant="success"> Data Analysis </Badge>{" "}
+              <Badge variant="warning"> Data Manipulation </Badge>{" "}
+              <Badge variant="info"> Data Cleansing </Badge>{" "}
             </Media.Body>{" "}
           </Media>{" "}
         </Card.Body>{" "}

@@ -19,13 +19,61 @@ function Experience() {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h4> Junior Product Manager </h4>
+              <h4> Technical Product Manager </h4>
               <h5> La3eb </h5>
-              <h6> 02/2022-present</h6>
+              <h6> 06/2022 - present</h6>
               <hr />
               <h5>
                 La3eb is a social community and online marketplace that brings together everything a gamer needs in one app.
               </h5>
+              <hr />
+              <p>
+                ●   Working with third parties and oursourced teams to achieve the vision of the company with minumum cost.
+              </p>
+              <p>
+                ● Leading the native mobile features as the only product manager.
+              </p>
+              <p>
+                ● Attending board meetings and working with stakeholders to create and balance the roadmap.
+              </p>
+              <p>
+                ● Leading agile and sprint routines.
+              </p>
+              <p>
+                ● Leading technnical decision making process of the whole product management team.
+              </p>
+              <hr />
+              <Badge variant="primary"> Data Analysis </Badge>{" "}
+              <Badge variant="danger"> Product Development </Badge>{" "}
+              <Badge variant="success"> User Research </Badge>{" "}
+              <Badge variant="danger"> Market Research </Badge>{" "}
+              <Badge variant="secondary"> Agile and Sprint Planning </Badge>{" "}
+              <Badge variant="success"> Design Thinking </Badge>{" "}
+            </Media.Body>{" "}
+          </Media>
+          <hr />
+          <Media>
+            <img
+              width={64}
+              height={64}
+              className="align-self-start mr-3"
+              src={La3eblogo}
+              alt="Generic placeholder"
+            />
+            <Media.Body>
+              <h4> Junior Product Manager </h4>
+              <h5> La3eb </h5>
+              <h6> 02/2022 - 06/2022</h6>
+              <hr />
+              <p>
+                ●  Tracking and interpreting product success metrics and KPIs.
+              </p>
+              <p>
+                ● Creating product roadmaps and execute them under tight schedules.
+              </p>
+              <p>
+                ● Creating user stories for the social part of the super app.
+              </p>
               <hr />
               <Badge variant="primary"> Data Analysis </Badge>{" "}
               <Badge variant="danger"> Product Development </Badge>{" "}
@@ -47,7 +95,7 @@ function Experience() {
             <Media.Body>
               <h4> Associate Product Manager </h4>
               <h5> JotForm </h5>
-              <h6> 10/2021-02/2022</h6>
+              <h6> 10/2021 - 02/2022</h6>
               <hr />
               <h5>
                 JotForm is a San Francisco–based company for building online forms.
@@ -82,13 +130,7 @@ function Experience() {
             <Media.Body>
               <h4> Product Manager Intern </h4>
               <h5> JotForm </h5>
-              <h6> 07/2021-08/2021</h6>
-              <hr />
-              <h5>
-                JotForm is a San Francisco–based company for building online forms.
-                Its users can create forms using drag and drop form objects and/or complete templates
-                that require no special technical knowledge.
-              </h5>
+              <h6> 07/2021 - 08/2021</h6>
               <hr />
               <p>
                 ● Worked directly with VP of Product as my mentor.
@@ -121,7 +163,7 @@ function Experience() {
             <Media.Body>
               <h4> Assistant Product Manager </h4>
               <h5> Digital Factory </h5>
-              <h6> 05/2020-08/2020</h6>
+              <h6> 05/2020 - 08/2020</h6>
               <hr />
               <h5>
                 Digital Factory is a mobile technology company that delivers
@@ -159,9 +201,9 @@ function Experience() {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h4> Product Manager Intern </h4>
+              <h4> Co-founder, Product Manager </h4>
               <h5> Joyin </h5>
-              <h6> 2017-2018</h6>
+              <h6> 02/2017 - 09/2019</h6>
               <hr />
               <h5>
                 Joyin is an online event map that lets users to discover and
